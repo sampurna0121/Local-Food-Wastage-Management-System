@@ -1,24 +1,54 @@
-# Local-Food-Wastage-Management-System
 # 🍲 Local Food Wastage Management System
 
-This project helps reduce food waste by connecting providers with receivers via a Streamlit web app.
+A Streamlit-based web application that helps reduce **food waste** by connecting surplus **food providers** (restaurants, grocery stores, etc.) with **receivers** (NGOs, community centers, individuals).
 
-## 🔧 Tech Used
-- Python
-- SQL (PostgreSQL)
-- Streamlit
-- Pandas
-- Plotly & Matplotlib
-
-## 📊 Features
-- List and claim food items
-- 15 SQL query outputs
-- 5+ interactive visualizations
-- Full CRUD support for managing listings
-
-## 🚀 How to Run
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run app: `streamlit run app.py`
+> Built as a capstone project under GUVI’s Python & Data Analysis track.
 
 ---
 
+## 🔧 Tech Stack
+- 🐍 Python
+- 🛢️ SQL (PostgreSQL)
+- 📊 Pandas, Matplotlib, Seaborn, Plotly
+- 🌐 Streamlit (Web Interface)
+- 📁 SQLAlchemy (DB connection)
+
+---
+
+## 📌 Features
+
+| Module | Description |
+|--------|-------------|
+| 📄 SQL Query Results | 15+ complex SQL queries executed and displayed |
+| 📈 Visualizations | Interactive charts for trends and insights |
+| 🛠️ CRUD Operations | Add, Update, Delete food listings |
+| 🔍 Filters | By city, provider type, food type, meal type |
+| 📞 Contact Info | See provider contact by city |
+| 📋 Real-time Data | All queries run on live PostgreSQL DB |
+
+---
+
+## 📷 Screenshots
+
+### 🏠 Home Page
+![Home](images/home.png)
+
+### 📄 SQL Query Results
+![Query](images/query_output.png)
+
+### 📈 Visualizations
+![Visualization](images/visuals.png)
+
+### 🛠️ Manage Listings (CRUD)
+![CRUD](images/crud.png)
+
+> *(Add these images to an `/images` folder in your repo)*
+
+---
+
+## 🚀 How to Run the App Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sampurna0121/Local-Food-Wastage-Management-System.git
+   cd Local-Food-Wastage-Management-System
