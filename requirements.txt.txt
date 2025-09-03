@@ -4,3 +4,4 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sqlalchemy import create_engine
 import plotly.express as px
+psycopg2-binary
